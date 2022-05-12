@@ -34,68 +34,6 @@ main {
   	justify-content:  center;
 }
 
-aside {
-  	width: 100%;
-  	display: flex;
-  	flex-wrap: wrap; 
-  	justify-content:  center;
-}
-
-article {
-	min-width: 340px;
-	margin: 10px;
-}
-
-table {
-	width: 100%;
-	border-spacing: 0px;
-}
-th {
-	text-align: left;
-}
-tr td {
-	width: 50%;
-	height:  48px;
-}
-
-select {
-	height: 48px;
-	width: 150px;
-}
-
-button {
-	min-width: 36px;
-	margin-top: 3px;
-	margin-bottom: 3px;
-}
-
-input {
-	height: 48px;
-}
-
-strong {
-    cursor: pointer;
-    text-decoration: underline;
-    color: #007bff;
-}
-
-.slider {
-	width: 150px;
-}
-
-#piano {
-	margin-top: 10px;
-}
-#fretboard {
-	margin-top: 10px;
-}
-#random_button {
-	margin-top: 6px;
-	padding-left: 15px;
-	padding-right: 15px;
-	height: 36px;
-}
-
 #ios_install_instructions p {
     font-size: 18px !important;
 }
