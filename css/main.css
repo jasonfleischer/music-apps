@@ -61,3 +61,7 @@ main {
 .app_icon img {
 	max-width: 120px;
 }
+
+.app_icon p {
+	max-width: 120px;
+}
