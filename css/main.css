@@ -51,7 +51,7 @@ main {
 	border: 1px solid #c3c3c3;
 	display: flex;
 	flex-flow: wrap;
-	align-content: center;
+	justify-content: center;
 }
 
 .app_icon {
