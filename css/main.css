@@ -33,8 +33,6 @@ main {
 	display: flex;
 	flex-wrap: wrap; 
   	justify-content:  center;
-
-
     background: var(--primary-background-color);
     background-image: linear-gradient(to bottom, var(--secondary-background-color), var(--primary-background-color));
 }
