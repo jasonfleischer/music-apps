@@ -9,7 +9,6 @@
 
 CWD=`pwd`
 
-npm update;
 
 uglifycss css/alert.css css/header.css css/main.css css/root.css > css/bundle.css
 
