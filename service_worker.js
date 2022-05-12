@@ -1,12 +1,13 @@
 const CACHE_NAME = 'v1';
+const APP_NAME = 'music-apps'
 const CACHE = [
-        '/music-apps/index.html',
-        '/music-apps/css/bundle.css',
-        '/music-apps/js/bundle.js'
+        '/'+APP_NAME+'/index.html',
+        '/'+APP_NAME+'/css/bundle.css',
+        '/'+APP_NAME+'/js/bundle.js'
       ];
 	
 self.addEventListener('install', function(event) {
-    console.log('music-apps: install');
+    console.log(APP_NAME+': install');
     event.waitUntil(
         caches.open(CACHE_NAME).then(function(cache) {
             return cache.addAll(CACHE);
@@ -15,7 +16,7 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-    console.log('music-apps: fetch');
+    console.log(APP_NAME+': fetch');
     event.respondWith(
         caches.open(CACHE_NAME).then(function(cache) {
             return cache.match(event.request).then(function(response) {
@@ -29,7 +30,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function activator(event) {
-    console.log('music-apps: activate');
+    console.log(APP_NAME+': activate');
     event.waitUntil(
         caches.keys().then(function(keys) {
             return Promise.all(keys

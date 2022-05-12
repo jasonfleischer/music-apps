@@ -1,16 +1,18 @@
 var install = {}
 let prompt;
 
+let app_name = 'music-apps'
+
 if ('serviceWorker' in navigator) {
 	
-  	navigator.serviceWorker.register('/music-apps/service_worker.js', { scope: '/music-apps/' }).then(function(reg) {
+  	navigator.serviceWorker.register('/'+app_name+'/service_worker.js', { scope: '/'+app_name+'/' }).then(function(reg) {
 
 	    if(reg.installing) {
-	      console.log('music-apps: Service worker installing');
+	      console.log(app_name+': Service worker installing');
 	    } else if(reg.waiting) {
-	      console.log('music-apps: Service worker installed');
+	      console.log(app_name+': Service worker installed');
 	    } else if(reg.active) {
-	      console.log('music-apps: Service worker active');
+	      console.log(app_name+': Service worker active');
 	    }
 
 	}).catch(function(error) { // registration failed
