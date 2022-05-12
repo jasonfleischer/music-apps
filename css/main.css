@@ -60,6 +60,7 @@ main {
 
 .app_icon img {
 	max-width: 120px;
+	cursor: pointer;
 }
 
 .app_icon p {
