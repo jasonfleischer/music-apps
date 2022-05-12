@@ -65,4 +65,5 @@ main {
 .app_icon p {
 	max-width: 120px;
 	margin: 0px;
+	text-align:center;
 }
