@@ -43,12 +43,8 @@ main {
     vertical-align: text-bottom
 }
 
-
 .app_icon_container {
-	
-	
 	margin-top: 15%;
-	border: 1px solid #c3c3c3;
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
