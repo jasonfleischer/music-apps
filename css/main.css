@@ -45,7 +45,7 @@ main {
 
 
 .app_icon_container {
-	 width: 200px;
+	 width: 75%;
   height: 200px;
   border: 1px solid #c3c3c3;
   display: flex;
