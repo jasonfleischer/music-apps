@@ -29,9 +29,8 @@ body {
 main {
 	width: 100%;
 	padding-top: var(--header-height);
-	display: flex;
-	flex-wrap: wrap; 
-  	justify-content:  center;
+	position: relative;
+	border: 3px solid green;
 }
 
 #ios_install_instructions p {
@@ -51,6 +50,12 @@ main {
   border: 1px solid #c3c3c3;
   display: flex;
   flex-flow: row-reverse wrap;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .app_icon {
