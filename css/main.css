@@ -46,7 +46,7 @@ main {
 
 .app_icon_container {
 	width: 75%;
-	min-width: 600px;
+	
 	margin-top: 20%;
 	border: 1px solid #c3c3c3;
 	display: flex;
