@@ -10,7 +10,7 @@
 CWD=`pwd`
 
 
-uglifycss css/alert.css css/header.css css/main.css css/root.css > css/bundle.css
+uglifycss  css/root.css css/alert.css css/header.css css/main.css > css/bundle.css
 
 uglifyjs js/prototypes.js js/information.js js/alert.js js/main.js js/install.js  service_worker.js -o js/bundle.js
 browserify js/bundle.js -o js/bundle.js
