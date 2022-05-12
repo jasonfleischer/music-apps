@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Music Apps</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Jason Fleischer">
+	<meta name="description" content="Music Apps Launcher">
+	<meta name='viewport' content='width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no'>
+	<meta name="theme-color" content="#000"/>
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+	<link rel="stylesheet" href="css/bundle.css">
+	<link rel="manifest" href="manifest.json">
+	<link rel="apple-touch-icon" href="img/192.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/180.png">
+	<link rel="apple-touch-icon" sizes="167x167" href="img/167.png">
+</head>
+<body>
+	<header>
+		<div id="page_name" onclick="info()">Music Apps</div>
+		<button id="kofi_button" onclick="kofi()">
+			<img src="img/kofi.svg" width="25" height="25" alt="Buy Me a Coffee at ko-fi.com" />
+			<span >Support the Developer</span>
+		</button>
+		<button id="info_button" onclick="info()" ><img id="info_button_svg" src="img/info_white.svg" width="16" height="19" alt="Info"/></button>
+	</header>
+	<div id="alert_container">
+		<div id="alert">
+			<div id="alert_header">
+				<h3 id="alert_title"></h3>
+				<button id="dismiss_alert_button" ><img height="16" id="dismiss_close_button_svg" src="img/close_white.svg" alt="Dismiss alert"/></button>
+			</div>
+			<div id="alert_contents"></div>
+		</div>
+	</div>
+	<main>
+		
+	</main>
+</body>
+</html>
