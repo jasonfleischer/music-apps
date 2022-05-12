@@ -57,6 +57,7 @@ main {
 	font-size: 25px;
 	width: 120px;
 	height: 150px;
+	padding: 20px;
 }
 
 .app_icon img {
