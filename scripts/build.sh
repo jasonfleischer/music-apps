@@ -7,8 +7,6 @@
 # $ npm install -g uglify-js
 # $ npm install -g browserify
 
-CWD=`pwd`
-
 
 uglifycss  css/root.css css/button.css css/alert.css css/header.css css/main.css > css/bundle.css
 
@@ -17,6 +15,3 @@ browserify js/bundle.js -o js/bundle.js
 uglifyjs js/bundle.js -o js/bundle.js
 
 git add *; git commit -m 'update'; git push;
-
-
-cd $CWD

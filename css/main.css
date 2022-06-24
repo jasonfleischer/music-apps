@@ -37,6 +37,12 @@ main {
     background-image: linear-gradient(to bottom, var(--secondary-background-color), var(--primary-background-color));
 }
 
+strong {
+	    cursor: pointer;
+    text-decoration: underline;
+    color: #007bff;
+}
+
 #ios_install_instructions p {
     font-size: 18px !important;
 }
