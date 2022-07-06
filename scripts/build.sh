@@ -14,6 +14,6 @@ uglifyjs js/prototypes.js js/information.js js/alert.js js/main.js js/install.js
 browserify js/bundle.js -o js/bundle.js
 uglifyjs js/bundle.js -o js/bundle.js
 
-#git add *; git commit -m 'update'; git push;
+git add *; git commit -m 'update'; git push;
 
 echo '-- Finished build.sh for music apps --'
