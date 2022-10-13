@@ -64,12 +64,12 @@ strong {
 	width: 120px;
 	height: 150px;
 	padding: 20px;
-	border-radius: 24px;
 }
 
 .app_icon img {
 	max-width: 120px;
 	cursor: pointer;
+	border-radius: 24px;
 }
 
 .app_icon p {
